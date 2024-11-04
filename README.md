@@ -11,7 +11,8 @@
             padding: 0;
             width: 100%;
             height: 100%;
-            overflow: hidden; /* Prevent scrolling */
+            overflow: hidden ; /* Prevent scrolling */
+            margin: auto;
         }
         .iframe-container {
             width: 100vw;  /* Full width of the viewport */
