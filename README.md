@@ -1,22 +1,42 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adobe XD Project Embed</title>
+    <title>Centered Adobe XD Embed</title>
     <style>
-        /* Ensure the iframe and body elements take up the entire viewport */
-        body, html {
-            margin: auto;
+        /* Reset margin and padding for body and html */
+        * {
+            margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Ensure body and html fill the viewport */
+        body, html {
             width: 100%;
             height: 100%;
-            overflow: hidden ; /* Prevent scrolling */
-            .center {
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
-}
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            background-color: #f4f4f4; /* Optional: Customize background color */
+        }
+
+        /* Ensure iframe container centers within the viewport */
+        .iframe-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Set iframe to fill the iframe container */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
     </style>
 </head>
 <body>
