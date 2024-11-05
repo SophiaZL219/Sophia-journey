@@ -7,27 +7,16 @@
     <style>
         /* Ensure the iframe and body elements take up the entire viewport */
         body, html {
-            margin: 0;
+            margin: auto;
             padding: 0;
             width: 100%;
             height: 100%;
             overflow: hidden ; /* Prevent scrolling */
             .center {
-  margin: auto;
   width: 50%;
   border: 3px solid green;
   padding: 10px;
 }
-        }
-        .iframe-container {
-            width: 100vw;  /* Full width of the viewport */
-            height: 100vh; /* Full height of the viewport */
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
     </style>
 </head>
 <body>
